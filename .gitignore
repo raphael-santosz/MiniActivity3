@@ -1,0 +1,35 @@
+# Arquivos temporários
+*.tmp
+*.log
+*.lock
+
+# Arquivos gerados pelo Gradle
+.gradle/
+build/
+
+# Arquivos de cache e backups
+.idea/
+*.iml
+*.hprof
+*.pyc
+*.pyo
+*.swo
+*.swp
+
+# Arquivos do Android Studio que não precisam ir para o GitHub
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Diretórios e arquivos específicos da execução e build
+/captures
+/output
+.DS_Store
+/local.properties
+
+# Exclusões específicas para projetos com Compose
+.compose/
+.compose-cache/
