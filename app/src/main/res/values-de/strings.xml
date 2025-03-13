@@ -7,4 +7,6 @@
     <string name="currency_value">Währungswert (USD): %s</string>
     <string name="calculate_purchasing_power">Kaufkraft berechnen</string>
     <string name="purchasing_power">Kaufkraft</string>
+    <string name="more_info">Mehr Informationen</string>
+    <string name="country_flag">Landesflagge</string>
 </resources>

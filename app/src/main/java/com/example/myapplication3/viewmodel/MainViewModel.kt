@@ -1,7 +1,9 @@
 package com.example.myapplication3.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.example.myapplication3.R
 import java.util.*
+
 
 class MainViewModel : ViewModel() {
 
@@ -12,6 +14,17 @@ class MainViewModel : ViewModel() {
         "es" to Triple(1.4E12, 47000000, 1.08),    // Espanha: PIB, População, EUR/USD
         "de" to Triple(4.2E12, 83000000, 1.08)     // Alemanha: PIB, População, EUR/USD
     )
+
+    fun getCountryIconResource(): Int {
+        return when (currentLanguage) {
+            "pt" -> R.drawable.ic_brazil
+            "en" -> R.drawable.ic_usa
+            "es" -> R.drawable.ic_spain
+            "de" -> R.drawable.ic_germany
+            else -> R.drawable.default_flag  // 🔹 Um ícone padrão para evitar falhas
+        }
+    }
+
 
     // Identifica o idioma atual
     var currentLanguage = Locale.getDefault().language.take(2)

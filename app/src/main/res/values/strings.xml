@@ -7,4 +7,6 @@
     <string name="currency_value">Currency value (USD): %s</string>
     <string name="calculate_purchasing_power">Calculate Purchasing Power</string>
     <string name="purchasing_power">Purchasing Power</string>
+    <string name="more_info">More Information</string>
+    <string name="country_flag">Country Flag</string>
 </resources>

@@ -7,4 +7,6 @@
     <string name="currency_value">Valor da moeda (USD): %s</string>
     <string name="calculate_purchasing_power">Calcular Poder de Compra</string>
     <string name="purchasing_power">Poder de Compra</string>
+    <string name="more_info">Mais informações</string>
+    <string name="country_flag">Bandeira do País</string>
 </resources>
