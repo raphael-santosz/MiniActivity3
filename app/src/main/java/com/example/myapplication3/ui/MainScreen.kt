@@ -27,7 +27,7 @@ fun MainScreen(viewModel: MainViewModel = viewModel(), context: Context) {
     var gdp by remember { mutableStateOf("") }
     var population by remember { mutableStateOf("") }
     var currencyValue by remember { mutableStateOf("") }
-    var poderDeCompra by remember { mutableStateOf("") }
+    var poderDeCompra by remember { mutableStateOf("") } // 🔹 Corrigido para `var`
     var showDetails by remember { mutableStateOf(false) }
 
     // Detectar mudanças de idioma
@@ -55,7 +55,7 @@ fun MainScreen(viewModel: MainViewModel = viewModel(), context: Context) {
         ) {
             // 🔹 Imagem de fundo via URL
             AsyncImage(
-                model = viewModel.getBackgroundImageUrl(),
+                model = "img.freepik.com/free-photo/green-branch-white-social-template_53876-160534.jpg",
                 contentDescription = null,
                 modifier = Modifier.fillMaxSize(),
                 contentScale = ContentScale.Crop
