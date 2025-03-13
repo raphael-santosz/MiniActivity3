@@ -7,6 +7,11 @@ import java.util.*
 
 class MainViewModel : ViewModel() {
 
+    // URL da imagem de fundo
+    fun getBackgroundImageUrl(): String {
+        return "https://img.freepik.com/free-photo/green-branch-white-social-template_53876-160534.jpg?t=st=1741882877~exp=1741886477~hmac=2fb75a2791a9ad4dd6df920562c11ba114c2a92379c23af3debdebebf0c3ec3c&w=360"  // 🔄 Substitua por uma URL válida
+    }
+
     // Dados para cada país
     private val data = mapOf(
         "pt" to Triple(2.4E12, 215000000, 0.20),   // Brasil: PIB, População, BRL/USD
