@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MyApplication3</string>
+    <string name="app_name">Minha Aplicação 3</string>
+    <string name="greeting">Olá!</string>
     <string name="current_language">Idioma atual: Português</string>
+    <string name="gdp">PIB: %s trilhões</string>
+    <string name="population">População: %s</string>
+    <string name="currency_value">Valor da moeda (USD): %s</string>
+    <string name="calculate_purchasing_power">Calcular Poder de Compra</string>
+    <string name="purchasing_power">Poder de Compra</string>
 </resources>

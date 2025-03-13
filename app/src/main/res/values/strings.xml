@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">MyApplication3</string>
+    <string name="app_name">My Application 3</string>
+    <string name="greeting">Hello!</string>
     <string name="current_language">Current language: English</string>
+    <string name="gdp">GDP: %s trillion</string>
+    <string name="population">Population: %s</string>
+    <string name="currency_value">Currency value (USD): %s</string>
+    <string name="calculate_purchasing_power">Calculate Purchasing Power</string>
+    <string name="purchasing_power">Purchasing Power</string>
 </resources>
